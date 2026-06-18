@@ -1,0 +1,17 @@
+Proceso ejemplo6
+	Definir nun1,nun2,nun3,nun4 Como Entero;
+	 Escribir "Ingrese A";
+	  Leer nun1
+	   Escribir "Ingrese B";
+	    Leer nun2
+		 Escribir "Ingrese C";
+		 Leer nun3
+		 Escribir "Ingrese D";
+		 Leer nun4
+		 E=nun1+nun2
+		 F=E-4
+		 G=F^2
+		 H=nun3*nun4
+		 I=G/H
+		 Escribir "El resultado es",I
+FinProceso
