@@ -1,9 +1,7 @@
 Proceso ejemplo7
 	Definir nun1,nun2 Como Entero;
-	 Escribir "Ingrese la base";
-	  Leer nun1
-	   Escribir "Ingrese la altura";
-	    Leer nun2
+        nun1=8
+        nun2=8
 		A=nun1*nun2
 		B=A/2
 		 Escribir "El area es",B
