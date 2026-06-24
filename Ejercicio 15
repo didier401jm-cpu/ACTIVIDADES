@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	definir num1,NUM2,NUM3 Como Entero
+	Escribir"HEIDY Ingrese su edad";
+	//mi bombo
+	Leer num
+	Si  num>19 Entonces
+		//No puse >= de 20 para optimizar y no tener que escribir de mas
+		Escribir "HEIDY Puede votar";
+	SiNo 
+		Escribir "HEIDY No  puede votar a la casa";
+		
+	FinSi
+	Escribir"JULIAN Ingrese su edad";
+	Leer NUM2
+	Si  NUM2>19 Entonces
+		Escribir "JULIAN Puede votar";
+	SiNo 
+		Escribir "JULIAN No  puede votar a la casa";
+		
+	FinSi
+	Escribir"KEVIN Ingrese su edad";
+	Leer NUM3
+	Si  NUM3>19 Entonces
+		Escribir "KEVIN Puede votar";
+	SiNo 
+		Escribir "KEVIN No  puede votar a la casa";
+		
+	FinSi
+FinAlgoritmo
