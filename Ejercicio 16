@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	definir num Como Entero
+	num=17
+	//Para juzgar la edad o algo asi
+		Si  num>19 Entonces
+			Escribir "Puede votar";
+		SiNo //Solo va a salir esta opcion pq ya esta la edad definida
+			Escribir "No  puede votar ni ser entrevistado";
+		FinSi
+FinAlgoritmo
