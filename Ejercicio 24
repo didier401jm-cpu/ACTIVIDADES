@@ -1,0 +1,13 @@
+SubProceso total<-calcularTotalVenta(subtotal,iva)
+	Definir total Como Real;
+	total<-subtotal+(subtotal*iva);
+FinSubProceso
+
+Algoritmo Principal
+	Definir pagofinal Como Real;
+	
+	pagofinal<-calcularTotalVenta(540000,0.19);
+	
+	Escribir "El total a pagar es",pagofinal;
+FinAlgoritmo
+	
