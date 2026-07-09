@@ -8,19 +8,13 @@ Algoritmo sin_titulo
 			
 		FinPara
 	FinPara
-	suma1<-0
+	contador<-0
 	Para i<-1 hasta 3 Hacer
-		suma1<-suma1+notas[i,1]
-	FinPara
-    promedio1<-suma1/3
-	suma2<-0
-Para i<-1 hasta 3 Hacer
-	suma2<-suma2+notas[i,2]
-FinPara
-promedio2<-suma2/3
-Escribir "La suma del curso 2 es",suma2
-Escribir "el promedio del curso 2 es",promedio2
-Escribir "La suma del curso 1 es",suma1
-Escribir "el promedio del curso 1 es",promedio1
-
+		Para j<-1 Hasta 2 Hacer
+			Si(notas[i,j]>10)Entonces
+				cpntador<-contador+1
+			FinSi
+		FinPara
+    FinPara
+	Escribir"Cantidad de notas>10",contador
 FinAlgoritmo
