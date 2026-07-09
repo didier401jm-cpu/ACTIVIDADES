@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+		Dimension notas[3,2]
+		Definir i,j Como Entero
+		Para i<-1 hasta 3 Hacer
+			Para j<-1 Hasta 2 Hacer
+				Escribir"Ingrese  la nota del alumno",i,"en el curso",j;
+				Leer notas[i,j]
+				
+			FinPara
+		FinPara
+		Mayor<- notas[1,1]
+		Menor<- notas[1,1]
+		Para i<-1 hasta 3 Hacer
+			Para j<-1 Hasta 2 Hacer
+			  Si(notas[i,j]>Mayor) Entonces
+				Mayor<-notas[i,j]
+			  FinSi
+			  Si(notas[i,j]<Menor) Entonces
+				Menor<-notas[i,j]
+			  FinSi
+			FinPara
+	    FinPara
+		Escribir "La nota mayor es",Mayor
+		Escribir "lA nota menor es",Menor
+FinAlgoritmo
